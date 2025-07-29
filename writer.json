@@ -1,0 +1,19 @@
+{
+    "type": "ICEBERG",
+    "writer": {
+      "catalog_type": "rest",
+      "rest_catalog_url": "http://127.0.0.1:8181/api/catalog/",
+      "iceberg_s3_path": "s3://my/s3/path",
+      "iceberg_db": "iceberg_db",
+      "rest_auth_type": "oauth2",
+      "oauth2_uri": "http://127.0.0.1:8181/api/catalog/v1/oauth/tokens",
+      "credential": "d69694f1e84c4b1c:11cffff66afef80b57e84709e5432889",
+      "scope": "PRINCIPAL_ROLE:ALL",
+      "s3_endpoint": "http://127.0.0.1:9000",
+      "aws_access_key": "minio",
+      "aws_secret_key": "minio123",
+      "s3_path_style": true,
+      "aws_region": "dummy-region",
+      "no_identifier_fields": true
+    }
+  }

@@ -1,0 +1,5 @@
+ docker run --rm \
+  --network polaris-quickstart \
+  -v /Users/datazip/Desktop/testing-olake-ui/polaris-test:/mnt/config \
+  olakego/source-postgres:latest \
+  check --destination /mnt/config/writer.json
